@@ -16,7 +16,7 @@ const milUniElement = document.getElementById('milUni');
 const splitsElement = document.getElementById('splits');
 
 function printTime() {
-  printMinutes()
+  printMinutes();
   printSeconds()
 }
 
@@ -87,11 +87,7 @@ btnLeftElement.addEventListener('click', () => {
 
 // Reset/Split Button
 btnRightElement.addEventListener('click', () => {
-   btnLeftElement.classList.toggle("start");
-  btnLeftElement.classList.toggle("stop");
-
-  btnRightElement.classList.toggle("split");
-  btnRightElement.classList.toggle("reset");
+  
 
   if(btnLeftElement.classList.contains("start")){
     btnLeftElement.innerText ="START"

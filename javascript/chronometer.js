@@ -9,7 +9,6 @@ class Chronometer {
     this.currentTime += 1
     if(callback)
     callback()
-  
   }, 1 * 1000);
   
   }
